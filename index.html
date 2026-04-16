@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Download Center</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f172a, #020617);
+    color: #e2e8f0;
+}
+
+/* HEADER */
+header {
+    padding: 20px;
+    text-align: center;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* CARD */
+.card {
+    background: rgba(255,255,255,0.05);
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background: linear-gradient(45deg, #22c55e, #4ade80);
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(45deg, #16a34a, #22c55e);
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* EMBED */
+iframe {
+    width: 100%;
+    height: 500px;
+    border-radius: 12px;
+    border: none;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    opacity: 0.6;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    🚀 Download Center Pro
+</header>
+
+<div class="container">
+
+    <!-- INTRO -->
+    <div class="card">
+        <h2>📦 Kho File Google Drive</h2>
+        <p>
+            Tổng hợp tài nguyên, mod, file tải về tốc độ cao từ Google Drive.
+        </p>
+
+        <a class="btn" href="https://drive.google.com/drive/folders/1rwiJkf1RwNeCWSeju3SYEAd78gTyb9_U" target="_blank">
+            🔗 Truy cập ngay
+        </a>
+    </div>
+
+    <!-- FEATURES -->
+    <div class="grid">
+        <div class="card">
+            <h3>⚡ Tốc độ cao</h3>
+            <p>Download trực tiếp từ Google Drive không giới hạn.</p>
+        </div>
+
+        <div class="card">
+            <h3>🔒 An toàn</h3>
+            <p>File được kiểm duyệt trước khi upload.</p>
+        </div>
+
+        <div class="card">
+            <h3>📱 Tương thích</h3>
+            <p>Hoạt động tốt trên điện thoại và máy tính.</p>
+        </div>
+    </div>
+
+    <!-- VIEW DRIVE -->
+    <div class="card">
+        <h2>📂 Xem file trực tiếp</h2>
+
+        <iframe src="https://drive.google.com/embeddedfolderview?id=1rwiJkf1RwNeCWSeju3SYEAd78gTyb9_U#grid"></iframe>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 - Your Website | Designed by You
+</footer>
+
+</body>
+  </html>
